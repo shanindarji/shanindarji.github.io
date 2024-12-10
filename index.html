@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanin's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .banner {
+            background: url('path/to/static/background-image.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <button class="menu-toggle" aria-label="Toggle navigation menu">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="home" class="banner">
+            <div class="banner-content">
+                <h1>Turning Concepts into Reality</h1>
+            </div>
+        </section>
+    </header>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-header">
+                <h2 class="about-title">About Me</h2>
+                <div class="about-avatar">
+                    <img src="path/to/your-photo.jpg" alt="Shanin's Profile" class="profile-img">
+                    <div class="avatar-border"></div>
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Hi, I'm <span class="highlight">Shanin</span>, a Mechanical Design Engineer with over 5 years of experience 
+                        in mechanical design and engineering. I am passionate about blending creativity and precision to bring ideas to life.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-history"></i>
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="expertise-section">
+                <h3 class="section-subtitle">Areas of Expertise</h3>
+                <div class="expertise-grid">
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h4>3D Modeling</h4>
+                        <p>Expert in SolidWorks and advanced modeling techniques</p>
+                        <ul class="expertise-list">
+                            <li>Parametric Modeling</li>
+                            <li>Assembly Design</li>
+                            <li>Surface Modeling</li>
+                        </ul>
+                    </div>
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+                        <h4>CAD Design</h4>
+                        <p>Proficient in AutoCAD and technical drawing</p>
+                        <ul class="expertise-list">
+                            <li>2D/3D Design</li>
+                            <li>Technical Documentation</li>
+                            <li>Design Standards</li>
+                        </ul>
+                    </div>
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4>Engineering</h4>
+                        <p>Specialized in mechanical systems and analysis</p>
+                        <ul class="expertise-list">
+                            <li>Stress Analysis</li>
+                            <li>Thermal Analysis</li>
+                            <li>Design Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3 class="section-subtitle">Professional Certifications</h3>
+                <div class="cert-container">
+                    <div class="cert-badge">
+                        <div class="cert-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h4>Certified SolidWorks Professional</h4>
+                            <span class="cert-date">2020</span>
+                        </div>
+                    </div>
+                    <div class="cert-badge">
+                        <div class="cert-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h4>AutoCAD Certified User</h4>
+                            <span class="cert-date">2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-container">
+            <h2 class="section-title"><i class="fas fa-chart-bar"></i> Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>CAD/CAM Software</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-cube"></i>
+                            <span>SolidWorks</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-drafting-compass"></i>
+                            <span>AutoCAD Mechanical</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-vector-square"></i>
+                            <span>Autodesk Inventor</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-draw-polygon"></i>
+                            <span>CATIA</span>
+                            <span class="skill-level">Proficient</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Analysis Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-calculator"></i>
+                            <span>Finite Element Analysis</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>HyperMesh/HyperView</span>
+                            <span class="skill-level">Proficient</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-cubes"></i>
+                            <span>Abaqus</span>
+                            <span class="skill-level">Proficient</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Manufacturing</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-industry"></i>
+                            <span>Libellula CNC</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-cogs"></i>
+                            <span>Siemens NX</span>
+                            <span class="skill-level">Proficient</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-tools"></i>
+                            <span>Creo</span>
+                            <span class="skill-level">Proficient</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Professional Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-tasks"></i>
+                            <span>Strategic Planning</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-users"></i>
+                            <span>Teamwork</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-handshake"></i>
+                            <span>Customer Service</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="section-container">
+            <h2 class="section-title"><i class="fas fa-project-diagram"></i> Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <div class="project-tech">
+                            <span>Lean Tools</span>
+                            <span>VSM</span>
+                            <span>4M</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Lean Manufacturing Implementation</h3>
+                        <p class="project-date">May 2019 - Aug 2019</p>
+                        <p class="project-company">Greco Aluminium Railings Ltd., Windsor, ON</p>
+                        <ul class="project-details">
+                            <li>Created VSM diagram to analyze process flow and identify problems</li>
+                            <li>Implemented lean tools (4M, 5WHY, VSM) to meet customer demand</li>
+                            <li>Resolved insufficient inventory issues in manufacturing and paint shop</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="project-tech">
+                            <span>HyperMesh</span>
+                            <span>SolidWorks</span>
+                            <span>ABAQUS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Wheel Rim Stress Analysis</h3>
+                        <p class="project-date">May 2019 - Aug 2019</p>
+                        <p class="project-company">University of Windsor</p>
+                        <ul class="project-details">
+                            <li>Performed static analysis using HyperMesh under various loads</li>
+                            <li>Created 3D wheel rim model using SolidWorks</li>
+                            <li>Analyzed displacement and stress using ABAQUS CAE</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="project-tech">
+                            <span>SolidWorks</span>
+                            <span>CAD</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Rear Suspension System Design</h3>
+                        <p class="project-date">May 2018 - Aug 2018</p>
+                        <p class="project-company">University of Windsor</p>
+                        <ul class="project-details">
+                            <li>Modeled complex assembly with 17 major components</li>
+                            <li>Enhanced CAD expertise through reverse engineering</li>
+                            <li>Developed comprehensive assembly drawings</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="project-tech">
+                            <span>Minitab</span>
+                            <span>Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>End Milling Process Optimization</h3>
+                        <p class="project-date">May 2014 - Apr 2015</p>
+                        <p class="project-company">LDRP Institute of Technology & Research</p>
+                        <ul class="project-details">
+                            <li>Optimized milling parameters for SS316 using regression analysis</li>
+                            <li>Evaluated cutting conditions impact on surface roughness</li>
+                            <li>Determined optimal machining parameters using Minitab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2018 - 2020</div>
+                    <h3>Master of Science in Mechanical Engineering</h3>
+                    <p class="timeline-institution">University of XYZ</p>
+                    <div class="timeline-details">
+                        <p>Specialized in Advanced Manufacturing Technologies</p>
+                        <ul>
+                            <li>GPA: 3.8/4.0</li>
+                            <li>Research Focus: Smart Manufacturing Systems</li>
+                            <li>Thesis: "Innovation in Automated Assembly Systems"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2014 - 2018</div>
+                    <h3>Bachelor of Science in Mechanical Engineering</h3>
+                    <p class="timeline-institution">University of ABC</p>
+                    <div class="timeline-details">
+                        <p>Core focus on Mechanical Design and Analysis</p>
+                        <ul>
+                            <li>GPA: 3.7/4.0</li>
+                            <li>Senior Project: "Design of Autonomous Robot"</li>
+                            <li>Academic Excellence Award</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="work-experience">
+        <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2020 - Present</div>
+                    <h3>Senior Mechanical Engineer</h3>
+                    <p class="timeline-institution">ABC Corporation</p>
+                    <div class="timeline-details">
+                        <ul>
+                            <li>Lead designer for next-generation automation systems</li>
+                            <li>Managed team of 5 engineers on critical projects</li>
+                            <li>Reduced production costs by 25% through innovative design solutions</li>
+                            <li>Implemented new CAD standards improving team efficiency</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2018 - 2020</div>
+                    <h3>Mechanical Design Engineer</h3>
+                    <p class="timeline-institution">XYZ Company</p>
+                    <div class="timeline-details">
+                        <ul>
+                            <li>Designed and optimized mechanical components for manufacturing</li>
+                            <li>Collaborated with cross-functional teams on product development</li>
+                            <li>Created detailed technical documentation and 3D models</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Feel free to reach out for inquiries, collaborations, or just to say hello. I'll respond as soon as possible!</p>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+        <div class="contact-links">
+            <a href="mailto:shanin@example.com"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+1234567890"><i class="fas fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/shanin"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/shanin">LinkedIn</a> | <a href="https://github.com/shanin">GitHub</a></p>
+        <div class="gear-icon">⚙️</div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
